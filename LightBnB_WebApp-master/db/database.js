@@ -8,13 +8,6 @@ const pool = new Pool({
   host: 'localhost',
   database: 'lightbnb'
 });
-// pool.query(`SELECT title FROM properties LIMIT 10;`)
-// .then(response => {
-//   console.log(response.rows);
-// })
-// console.log(test);
-/// Users
-
 /**
  * Get a single user from the database given their email.
  * @param {String} email The email of the user.
